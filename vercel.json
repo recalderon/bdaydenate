@@ -2,7 +2,7 @@
   "rewrites": [
     {"source": "/api/", "destination": "https://nate-api.vercel.com/"},
     {"source": "/api/:match*", "destination": "https://nate-api.vercel.com/:match*"},
-    {"source": "/", "destination": "https://bdaydonate.vercel.com/"},
-    {"source": "/:match*", "destination": "https://bdaydonate.vercel.com/:match*"}
+    {"source": "/", "destination": "https://nate.vercel.com/"},
+    {"source": "/:match*", "destination": "https://nate.vercel.com/:match*"}
   ]
 }
